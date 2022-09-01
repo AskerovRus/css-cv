@@ -1,0 +1,69 @@
+body {
+   color: #ffffff;
+   /* background-image: url(backphoto.jpg); */
+   /* background-color: black; */
+   background: linear-gradient(rgba(22, 20, 4, 0), #000000);
+}
+
+.avatar {
+   width: 250px;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: 15px 4px 14px rgba(0, 0, 0, 0.5);}
+
+.photo1 {
+      width: 35px;
+      margin-right: 20px;
+   }
+
+.photo2 {
+      width: 35px;
+   }
+a {
+      color: black;
+      text-decoration: none;
+   }
+a:hover {
+      text-decoration:underline;
+   }
+a:visited{
+      color: #857070;}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;}
+
+.table{
+   width: 100%;}
+      
+.table tr:nth-child(even) {
+   background-color:rgb(153, 110, 110);}
+
+.contacts {
+   margin-left: 50%;}
+
+.h1 {
+   margin-left:30%; 
+   color:black;}
+
+.info{
+      display: flex;
+      color: #000000;
+      }
+@media (max-width: 700px) {
+   .info {
+      text-align: center;
+      display: block;
+      text-align: centr;}
+   }
+.info-text{
+   margin-left: 35px;
+   margin-top: 50px;
+   }
+.tablekurs {
+   width: 100%;}
+.zvezda {
+   width: 60px;
+   border-radius: 30px;
+}
